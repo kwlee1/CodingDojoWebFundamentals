@@ -1,13 +1,14 @@
 #background{
-    width: 1000px; 
-    height: 700px; 
+    width: 1200px; 
+    height: 800px; 
     margin: 5px; 
+    padding: 10px; 
     background-color: #1c345e; 
 }
 #head{
-    width: 900px; 
+    width: 1150px; 
     height: 50px; 
-    margin: 5px;
+    margin: 20px;
     margin-top: 25px; 
     padding: 5px; 
     background-color: #ce3036; 
@@ -19,24 +20,37 @@
 #navi{
     width: 150px; 
     height: 400px; 
-    margin: 20px; 
+    margin: 20px 20px 20px 20px; 
     padding: 10px; 
     background-color: #2a7d8c;
     color: #51b8c3;
     display: inline-block; 
+    vertical-align: top; 
+    color: #4cafc5; 
+    text-decoration: underline; 
+    font-size: 10pt; 
 }
 #body{
-    width: 700px; 
-    height: 500px; yle
+    width: 920px; 
+    height: 580px;
     margin: 20px; 
     background-color: #0e1822;
     color: #abbcc0; 
     display: inline-block; 
+    vertical-align: top; 
+    padding: 10px; 
 }
 #foot{
-    width: 900px; 
+    width: 1150px; 
     height: 30px; 
-    margin: 5px; 
+    margin: 15px; 
     background-color: #5e6673; 
     color: #aabac8; 
+}
+.link{
+    color: #4cafc5; 
+    text-decoration: underline; 
+}
+.blue{
+    color: #7782d0; 
 }
